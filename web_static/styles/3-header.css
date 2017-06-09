@@ -1,0 +1,15 @@
+/*
+  ========================================
+  Primary Header
+  ========================================
+*/
+
+header {
+    background:#FF0000;
+    height:70px;
+    width:100%;
+    color: white;
+    border-bottom: 1px #CCCCCC;
+    background-image: url('/Users/Chris/Desktop/Holberton/images/logo.png');
+    background-repeat: no-repeat;
+}
