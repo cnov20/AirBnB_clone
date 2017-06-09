@@ -9,7 +9,9 @@ header {
     height:70px;
     width:100%;
     color: white;
-    border-bottom: 1px #CCCCCC;
-    background-image: url('/Users/Chris/Desktop/Holberton/images/logo.png');
-    background-repeat: no-repeat;
+    border-bottom: solid 1px #CCCCCC;
+}
+
+.hbnb-logo {
+    content: url('/Users/Chris/Desktop/Holberton/images/logo.png');
 }
