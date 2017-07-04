@@ -13,4 +13,6 @@ header {
 
 .hbnb-logo {
     content: url("../images/logo.png");
+    padding-left: 20px;
+    vertical-align: middle;
 }
