@@ -5,13 +5,12 @@
 */
 
 header {
-    background:#FF0000;
+    background: white;
     height:70px;
     width:100%;
-    color: white;
     border-bottom: solid 1px #CCCCCC;
 }
 
 .hbnb-logo {
-    content: url('../images/logo.png');
+    content: url('/images/logo.png');
 }
