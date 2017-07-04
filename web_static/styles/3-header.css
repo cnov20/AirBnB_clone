@@ -12,5 +12,5 @@ header {
 }
 
 .hbnb-logo {
-    content: url('../images/logo.png');
+    content: url("../images/logo.png");
 }
