@@ -11,8 +11,10 @@ header {
     border-bottom: solid 1px #CCCCCC;
 }
 
-.hbnb-logo {
+header .hbnb-logo {
     content: url("../images/logo.png");
-    padding-left: 20px;
+    position: relative;
     vertical-align: middle;
+    padding-left: 20px;
+    padding-top: 5px;
 }
