@@ -13,5 +13,5 @@ header {
 }
 
 .hbnb-logo {
-    content: url('/Users/Chris/Desktop/Holberton/images/logo.png');
+    content: url('../images/logo.png');
 }
