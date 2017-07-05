@@ -76,14 +76,27 @@ h4 {
     display: block;
     color: black;
     background-color: #FAFAFA;
-    width: 100%;
+    width: 90%;
+    height: 300%;
+    position: relative;
+    border: solid #DDDDDD 1px;
+    border-radius: 4px;
+    margin-top: 0;
 }
 
-.popover {
-
+.locations:hover .popover,
+{
+    height: 150%;
 }
 
 ul {
+    margin-top: 60px;
     list-style: none;
     font-size: 16px;
+}
+
+li {
+    margin-top: 20px;
+    margin: 10px;
+    line-height: 20px;
 }
