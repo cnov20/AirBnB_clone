@@ -35,8 +35,7 @@ button:hover {
 .locations, .amenities {
     height: 100%;
     width: 25%;
-    line-height: 5px;
-    padding-top: 5px;
+    line-height: 2px;
 }
 
 .locations {
@@ -51,6 +50,7 @@ button:hover {
 h3, h4 {
     text-align: center;
     color: black;
+    margin-top: 20px;
 }
 
 .locations h3 {
