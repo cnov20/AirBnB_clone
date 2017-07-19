@@ -32,18 +32,22 @@ button:hover {
     opacity: 0.9;
 }
 
-.locations, .amenities {
-    height: 100%;
-    width: 25%;
-    line-height: 2px;
-}
 
 .locations {
+    height: 100%;
+    width: 25%;
+    position: relative;
+    line-height: 2px;
     border-right: solid 1px #DDDDDD;
+    padding-right: 80px;
     float: left;
 }
 
 .amenities {
+    height: 100%;
+    width: 25%;
+    position: relative;
+    line-height: 2px;
     float: left;
 }
 
@@ -51,6 +55,7 @@ h3, h4 {
     text-align: center;
     color: black;
     margin-top: 20px;
+    vertical-align: middle;
 }
 
 .locations h3 {
@@ -71,32 +76,63 @@ h4 {
     font-size: 14px;
 }
 
-.locations:hover .popover,
-.amenities:hover .popover {
-    display: block;
+.popover {
+    display: none;
     color: black;
     background-color: #FAFAFA;
-    width: 90%;
-    height: 300%;
     position: relative;
     border: solid #DDDDDD 1px;
     border-radius: 4px;
-    margin-top: 0;
+    padding-right: 40px;
+    top: -34px;
 }
 
-.locations:hover .popover
-{
-    height: 150%;
+.locations .popover {
+    position: relative;
+    height: 400%;
+}
+
+.amenities .popover {
+    position: relative;
+    height: 250%;
+    text-align: left;
+}
+
+.popover h2 {
+    padding-top: 20px;
+    vertical-align: middle;
+}
+
+.locations:hover .popover {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.amenities:hover .popover {
+    display: block;
+    position: relative;
+    width: 100%;
 }
 
 ul {
     margin-top: 60px;
     list-style: none;
     font-size: 16px;
+    vertical-align: middle;
+    text-align: left;
 }
 
-li {
+.locations li {
     margin-top: 20px;
     margin: 10px;
     line-height: 20px;
+}
+
+.amenities li {
+    margin-top: 90px;
+    margin: 30px;
+    vertical-align: middle;
+    line-height: -25px;
+    text-align: left;
 }
