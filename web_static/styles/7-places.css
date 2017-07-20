@@ -22,6 +22,12 @@
     text-align: center;
 }
 
+.places .suite {
+    position: relative;
+    margin-left: 25%;
+    justify-content: center;
+}
+
 .places h2 {
     font-size: 30px;
     text-align: center;
